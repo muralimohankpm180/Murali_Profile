@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Murali_Profile/static/css/main.89e2fbd0.css",
+    "main.js": "/Murali_Profile/static/js/main.588894a6.js",
+    "static/js/787.b309e830.chunk.js": "/Murali_Profile/static/js/787.b309e830.chunk.js",
+    "static/media/Murali-img.jpg": "/Murali_Profile/static/media/Murali-img.194e48293f4758cc0e2e.jpg",
+    "static/media/logo.svg": "/Murali_Profile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Murali_Profile/index.html",
+    "main.89e2fbd0.css.map": "/Murali_Profile/static/css/main.89e2fbd0.css.map",
+    "main.588894a6.js.map": "/Murali_Profile/static/js/main.588894a6.js.map",
+    "787.b309e830.chunk.js.map": "/Murali_Profile/static/js/787.b309e830.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89e2fbd0.css",
+    "static/js/main.588894a6.js"
+  ]
+}
