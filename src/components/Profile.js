@@ -1,9 +1,11 @@
 import React from 'react';
 import './profile.css'
 import img from '../assets/Murali-img.jpg'
+import Skills from './Skills';
+import Contactme from './Contactme';
 export default function profile_page() {
 
- 
+
 
     return (
         <div>
@@ -19,23 +21,24 @@ export default function profile_page() {
                         </div>
                     </label>
                     <nav>
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                         <a href="#about">About</a>
                         <a href="#skills">Skills</a>
+                        <a href='#contact'>Contact</a>
 
 
                     </nav>
                 </header>
 
 
-                <section className='main-section'>
+                <section className='main-section' id='home'>
                     <div className="main">
                         <div className="images">
                             <div className="blue-bg-outer">
                                 <div className="white-bg">
 
                                     <div className="blue-bg">
-                                        <img src={img} alt="image" />
+                                        <img src={img} alt='profile' />
                                     </div>
                                 </div>
                             </div>
@@ -64,9 +67,9 @@ export default function profile_page() {
 
             </div>
 
-            <section className='expereince-section' id='about'>
+            <section className='expereince-section' >
 
-                <div className='grid-container' >
+                {/* <div className='grid-container' >
                     <div className='first-element' >
                         <h3>Expereince</h3>
                         <h6>Overall 3 Years IT Experience in TCS</h6>
@@ -81,22 +84,9 @@ export default function profile_page() {
 
                                 <div className='content'>
 
-                                    <h2>
-                                        2023-Present 
-                                    </h2>
-                                    <div>
-                                        <h5> Working as React developer</h5>
-                                        <ul>
 
-                                            <li>Developed and Maintained responsive web application using React.js  </li>
-                                            <li>Created reusable and modular React components to streamline development and enhance code maintainability. </li>
-                                            <li>Integrated RESTful APIs to fetch and update data, improving the real-time functionality of the applications.</li>
-                                            <li>Customized the Business workflow for Micro Focus ALM with respect to testing criteria.</li>
-                                            <li> Collaboration with cross-functional teams to prioritize the deliverables.</li>
-                                        </ul>
-                                    </div>
                                 </div>
-                            
+
                             </div>
                             <div className='container left'>
                                 <div className='content'>
@@ -105,33 +95,110 @@ export default function profile_page() {
                                         2022-2023
                                     </h2>
                                     <div>
-                                        
+
                                         <ul>
 
-                                            
+
                                             <li>Developed the HTML Email templates for the Business team.</li>
                                             <li>Closely worked with Design time in Implementation of HTML Email’s for Business clients.</li>
                                             <li> Worked with Business clients to collect the Requirements for the Enhancement of Waters E-Notebook application.</li>
                                             <li> Worked with vendor team for the Implementation of E-Notebook Requirements</li>
-                                            <li> Acted as the primary point of contact for end-users, promptly addressing and resolving application-related incidents.</li>                                           
+                                            <li> Acted as the primary point of contact for end-users, promptly addressing and resolving application-related incidents.</li>
                                             <li>Utilize strong troubleshooting skills to identify root causes and implement effective solutions, ensuring minimal impact on business operations.</li>
                                             <li> Ensured adherence to Service Level Agreements (SLAs) for incident response and resolution times.</li>
                                             <li> Prioritize and escalate issues as needed to meet SLA commitments and maintain high level of service availability.</li>
 
                                         </ul>
-                                     
+
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                         </div>
 
 
                     </div>
 
-                </div>
+                </div> */}
 
 
             </section>
+
+            <section className='section-exp' id='about' >
+                <h2>Experience</h2>
+                <h4>Overall 3 Years IT Experience in TCS Life Science Domain</h4>
+                <div className='timeline-section'>
+                    <div class="card-container left">
+                        <div class="card">
+                            <h2>
+                                2023-Present
+                            </h2>
+                            <div>
+                                <h4> Working as React developer</h4>
+                                <ul>
+
+                                    <li>Developed and Maintained responsive web application using React.js  </li>
+                                    <li>Created reusable and modular React components to streamline development and enhance code maintainability. </li>
+                                    <li>Integrated RESTful APIs to fetch and update data, improving the real-time functionality of the applications.</li>
+                                    <li>Customized the Business workflow for Micro Focus ALM with respect to testing criteria.</li>
+                                    <li> Collaboration with cross-functional teams to prioritize the deliverables.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container right">
+                        <div class="card">
+                            <h2>
+                                2022-2023
+                            </h2>
+                            <div>
+
+                                <ul>
+
+
+                                    <li>Developed the HTML Email templates for the Business team.</li>
+                                    <li>Closely worked with Design time in Implementation of HTML Email’s for Business clients.</li>
+                                    <li> Worked with Business clients to collect the Requirements for the Enhancement of Waters E-Notebook application.</li>
+                                    <li> Worked with vendor team for the Implementation of E-Notebook Requirements</li>
+                                    <li> Acted as the primary point of contact for end-users, promptly addressing and resolving application-related incidents.</li>
+                                    <li>Utilize strong troubleshooting skills to identify root causes and implement effective solutions, ensuring minimal impact on business operations.</li>
+                                    <li> Ensured adherence to Service Level Agreements (SLAs) for incident response and resolution times.</li>
+                                    <li> Prioritize and escalate issues as needed to meet SLA commitments and maintain high level of service availability.</li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container left">
+                        <div class="card">
+                            <h2>
+                                2021-2022
+                            </h2>
+                            <div>
+
+                                <ul>
+
+
+                                    <li>Create comprehensive documentation of application features, configurations, and issue resolution procedures. </li>
+                                    <li>Followed change Mangment process for the Application changes</li>
+                                    <li>Regularly update user manuals, FAQs, and knowledge base articles to facilitate user self-help. </li>
+                                    <li>Worked in SNOW ticketing tool for incident's managment</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+                <Skills></Skills>
+            </section>
+            <section>
+                <Contactme></Contactme>
+            </section>
+           
 
         </div>
     )
